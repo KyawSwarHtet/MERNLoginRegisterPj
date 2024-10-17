@@ -1,3 +1,5 @@
+
+import Home from "../Home";
 import styles from "./styles.module.css";
 
 const Main = () => {
@@ -14,6 +16,9 @@ const Main = () => {
 					Logout
 				</button>
 			</nav>
+
+			<Home/>
+			
 		</div>
 	);
 };
